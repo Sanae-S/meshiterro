@@ -16,6 +16,7 @@ end
 
   def show
     @post_image = PostImages.find(params[:id])
+    @post_comment = PostComent.new
   end
 
 #投稿データのストロングパラメータ
